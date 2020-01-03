@@ -99,3 +99,24 @@ header > .header-h1 > p {
   color: #fff;
   background: linear-gradient(225deg, #0000fe, #00f0b8);
 }
+
+section.episodios {
+  width: 100%;
+  position: relative;
+  top: 40%;
+}
+
+section.episodios > div.episodios-fondo {
+  width: 100%;
+  height: 1042px;
+  position: absolute;
+  z-index: -1;
+  background-image: linear-gradient(225deg, #0000ff, #0000a3);
+  clip-path: polygon(0% 18%, 100% 0, 100% 81%, 0% 100%);
+}
+
+section.episodios > div.episodios-iframe {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
