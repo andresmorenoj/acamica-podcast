@@ -118,7 +118,7 @@ section.episodios > div.episodios-fondo {
   clip-path: polygon(0% 18%, 100% 3%, 100% 85%, 0% 100%);
 }
 
-section > h2 {
+section.episodios > h2 {
   position: relative;
   top: 220px;
   left: 9.5%;
@@ -138,22 +138,94 @@ section.episodios > div.episodios-iframe {
   margin-top: 17%;
 }
 
-div.episodios-iframe-margin:nth-child(odd) {
+div.episodios-iframe-position:nth-child(odd) {
   display: grid;
   justify-items: self-end;
   margin-right: 36px;
   margin-bottom: 72px;
 }
 
-div.episodios-iframe-margin:nth-child(even) {
+div.episodios-iframe-position:nth-child(even) {
   display: grid;
   justify-items: self-start;
   margin-left: 36px;
   margin-bottom: 72px;
 }
 
-div.episodios-iframe-margin:nth-last-child(-n + 2) {
+div.episodios-iframe-position:nth-last-child(-n + 2) {
   margin-bottom: 64px;
 }
 
 /*Fin estilos sección episodios*/
+
+section.nosotros {
+  width: 100%;
+  position: relative;
+}
+
+section.nosotros > div.nosotros-content {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+div.nosotros-content > img {
+  width: auto;
+  height: 660px;
+  margin-left: 0;
+}
+
+div.nosotros-content-info {
+  width: 464px;
+  margin: auto 0;
+}
+
+div.nosotros-content-info > h2 {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 48px;
+  color: #060a24;
+  letter-spacing: 0;
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+div.nosotros-content-info > p {
+  font-family: "BMPlexMono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+/*Fin estilos sección nosotros*/
+
+section.entrevistas {
+  width: 100%;
+}
+
+section.entrevistas > div.entrevistas-imgs {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+section.entrevistas > h2 {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 48px;
+  color: #060a24;
+  letter-spacing: 0;
+  font-weight: lighter;
+  position: relative;
+  left: 9.5%;
+}
+
+section.entrevistas > div.entrevistas-imgs > img {
+  width: 480px;
+  height: 364px;
+  margin: 0;
+}
