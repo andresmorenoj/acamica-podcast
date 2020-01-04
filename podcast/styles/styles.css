@@ -1,7 +1,8 @@
 header {
   width: 90%;
   padding: 30px;
-  margin-left: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 header > .header-menu > img {
