@@ -234,3 +234,50 @@ section.entrevistas > div.entrevistas-imgs > img {
 }
 
 /*Fin estilos sección invitadas*/
+
+section.topicos {
+  width: 100%;
+  margin-top: 64px;
+}
+
+section.topicos > h2 {
+  font-family: "IBMPlexSans", sans-serif;
+  font-size: 48px;
+  color: #060a24;
+  letter-spacing: 0;
+  font-weight: lighter;
+  position: relative;
+  left: 9.5%;
+  margin: 0;
+}
+
+section.topicos > div.topicos-icons {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+div.topicos-icons > div.topicos-icons-item {
+  width: 260px;
+  height: 178px;
+  margin: 0 auto;
+}
+
+div.topicos-icons > div.topicos-icons-item > img {
+  width: 104px;
+  margin: 0 auto;
+  display: block;
+}
+
+div.topicos-icons > div.topicos-icons-item > p {
+  font-family: "IBMPlexSans-SemiBold", sans-serif;
+  font-size: 24px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 29px;
+}
