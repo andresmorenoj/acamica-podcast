@@ -198,13 +198,14 @@ div.nosotros-content-info > p {
   letter-spacing: 0;
   line-height: 24px;
   font-weight: lighter;
-  margin: 0;
+  margin: 0 0 15px 0;
 }
 
 /*Fin estilos sección nosotros*/
 
 section.entrevistas {
   width: 100%;
+  margin-top: 64px;
 }
 
 section.entrevistas > div.entrevistas-imgs {
@@ -222,6 +223,8 @@ section.entrevistas > h2 {
   font-weight: lighter;
   position: relative;
   left: 9.5%;
+  margin: 0;
+  margin-bottom: 36px;
 }
 
 section.entrevistas > div.entrevistas-imgs > img {
@@ -229,3 +232,5 @@ section.entrevistas > div.entrevistas-imgs > img {
   height: 364px;
   margin: 0;
 }
+
+/*Fin estilos sección invitadas*/
