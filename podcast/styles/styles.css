@@ -1,5 +1,4 @@
 header {
-  width: 90%;
   padding: 30px;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -50,7 +49,8 @@ header > .header-menu {
 header > .header-h1 {
   position: relative;
   top: 60px;
-  left: 70px;
+  left: 8%;
+  width: 90%;
 }
 
 h1 {
@@ -121,7 +121,7 @@ section.episodios > div.episodios-fondo {
 section.episodios > h2 {
   position: relative;
   top: 220px;
-  left: 9.5%;
+  left: 12%;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   color: #ffffff;
@@ -222,7 +222,7 @@ section.entrevistas > h2 {
   letter-spacing: 0;
   font-weight: lighter;
   position: relative;
-  left: 9.5%;
+  left: 12%;
   margin: 0;
   margin-bottom: 36px;
   width: 500px;
@@ -248,7 +248,7 @@ section.topicos > h2 {
   letter-spacing: 0;
   font-weight: lighter;
   position: relative;
-  left: 9.5%;
+  left: 12%;
   margin: 0;
   width: 600px;
 }
@@ -344,3 +344,34 @@ section.novedades > div.novedades-content > button:hover {
 }
 
 /*Fin sección novedades*/
+
+footer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 370px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+footer > p {
+  position: relative;
+  left: 7%;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+footer > div {
+  margin: auto 0;
+  position: relative;
+  right: 7%;
+}
+
+footer > div > i {
+  display: inline;
+  margin-right: 36px;
+}
