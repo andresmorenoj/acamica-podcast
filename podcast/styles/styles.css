@@ -101,6 +101,16 @@ header > .header-h1 > p {
   background: linear-gradient(225deg, #0000fe, #00f0b8);
 }
 
+.header-h1 > button > a {
+  text-decoration: none;
+  color: #060a24;
+}
+
+.header-h1 > button:hover > a,
+a:hover {
+  color: #fff;
+}
+
 /*Fin estilos header*/
 
 section.episodios {
@@ -339,8 +349,12 @@ section.novedades > div.novedades-content > button {
 
 section.novedades > div.novedades-content > button:hover {
   color: #fff;
-  background: linear-gradient(225deg, #0000fe, #00f0b8);
-  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+section.novedades > div.novedades-content > button > a {
+  text-decoration: none;
+  color: #060a24;
 }
 
 /*Fin sección novedades*/
