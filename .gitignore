@@ -21,6 +21,7 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+.vcode
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -37,5 +38,7 @@ Temporary Items
 # Archivos PDF
 *.PDF
 *.pdf
+*.zip
+*rtf
 
 # End of https://www.gitignore.io/api/macos

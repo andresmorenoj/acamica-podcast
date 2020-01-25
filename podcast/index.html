@@ -17,9 +17,15 @@
   <body>
     <header>
       <div class="header-menu">
-        <img src="./imagenes/logo.svg" alt="logo página podcast" />
+        <img class="logo" src="./imagenes/logo.svg" alt="logo página podcast" />
         <nav class="menu">
+<<<<<<< HEAD
           <ul>
+=======
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+          <ul class="menu1">
+>>>>>>> a49e0d6975c0317ce455fa8c50ea60e93443a986
             <li><a href="#episodios">EPISODIOS</a></li>
             <li><a href="#nosotros">NOSOTROS</a></li>
             <li><a href="#entrevistas">ENTREVISTAS</a></li>
@@ -29,6 +35,7 @@
       </div>
       <div class="header-h1">
         <h1>Hello <span class="world">world</span> pale blue dot<span class="punto">.</span></h1>
+<<<<<<< HEAD
         <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
         <button><a href="#topicos">Conocé más</a></button>
       </div>
@@ -55,6 +62,51 @@
         </div>
       </div>
     </section>
+=======
+        <p class="p-desktop">
+          El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <p class="p-mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <button><a href="#nosotros">Conocé más</a></button>
+      </div>
+    </header>
+    <main>
+      <section id="episodios" class="episodios">
+        <div class="episodios-fondo"></div>
+        <h2>Episodios</h2>
+        <div class="episodios-iframe">
+          <div class="episodios-iframe-g episodios-iframe-position">
+            <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" allow="encrypted-media"></iframe>
+          </div>
+          <div class="episodios-iframe-g episodios-iframe-position">
+            <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" allow="encrypted-media"></iframe>
+          </div>
+          <div class="episodios-iframe-g episodios-iframe-position">
+            <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" allow="encrypted-media"></iframe>
+          </div>
+          <div class="episodios-iframe-g episodios-iframe-position">
+            <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </section>
+      <section id="nosotros" class="nosotros">
+        <div class="nosotros-content">
+          <img src="./imagenes/phone.png" alt="Celular, mujer con computador" />
+          <div class="nosotros-content-info">
+            <h2>De dónde venimos</h2>
+            <p>
+              Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this
+              point of pale light.<br />
+            </p>
+
+            <p>
+              Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help
+              will come from elsewhere to save us from ourselves.
+            </p>
+          </div>
+        </div>
+      </section>
+>>>>>>> a49e0d6975c0317ce455fa8c50ea60e93443a986
       <section id="entrevistas" class="entrevistas">
         <h2>Invitadas/os estelares</h2>
         <div class="entrevistas-imgs">
@@ -66,25 +118,43 @@
           <img src="./imagenes/susan-kare.png" alt="Imagen de susan Kare" />
         </div>
       </section>
+<<<<<<< HEAD
     <section id="topicos" class="topicos">
       <h2>Algunos de nuestros temas</h2>
       <div class="topicos-icons">
         <div class="topicos-icons-item">
           <img src="./imagenes/icon1.svg" alt="Icono de Trabajo remoto" />
           <p>Trabajo remoto</p>
+=======
+      <section id="topicos" class="topicos">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="topicos-icons">
+          <div class="topicos-icons-item">
+            <img src="./imagenes/icon1.svg" alt="Icono de Trabajo remoto" />
+            <p>Trabajo remoto</p>
+          </div>
+          <div class="topicos-icons-item">
+            <img src="./imagenes/icon2.svg" alt="Ícono de Repensando la programación" />
+            <p>Repensando la programación</p>
+          </div>
+          <div class="topicos-icons-item">
+            <img src="./imagenes/icon3.svg" alt="Ícono de Repensando la programación" />
+            <p>Bases del código</p>
+          </div>
+          <div class="topicos-icons-item">
+            <img src="./imagenes/icon4.svg" alt="Ícono de Repensando la programación" />
+            <p>Seguridad informática</p>
+          </div>
+>>>>>>> a49e0d6975c0317ce455fa8c50ea60e93443a986
         </div>
-        <div class="topicos-icons-item">
-          <img src="./imagenes/icon2.svg" alt="Ícono de Repensando la programación" />
-          <p>Repensando la programación</p>
+      </section>
+      <section id="novedades" class="novedades">
+        <div class="novedades-fondo"></div>
+        <div class="novedades-content">
+          <h3>¿Querés las últimas novedades?</h3>
+          <button><a href="#episodios">ESCUCHÁ LOS EPISODIOS</a></button>
         </div>
-        <div class="topicos-icons-item">
-          <img src="./imagenes/icon3.svg" alt="Ícono de Repensando la programación" />
-          <p>Bases del código</p>
-        </div>
-        <div class="topicos-icons-item">
-          <img src="./imagenes/icon4.svg" alt="Ícono de Repensando la programación" />
-          <p>Seguridad informática</p>
-        </div>
+<<<<<<< HEAD
       </div>
     </section>
     <section id="novedades" class="novedades">
@@ -94,16 +164,19 @@
         <button><a href="#episodios">ESCUCHÁ LOS EPISODIOS</a></button> 
       </div>        
     </section>
+=======
+      </section>
+    </main>
+>>>>>>> a49e0d6975c0317ce455fa8c50ea60e93443a986
     <footer>
-      <p>© 2019— Hello blue pale dot </p>
+      <p>© 2019— Hello blue pale dot</p>
       <div>
-        <i class="fa fa-spotify"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-telegram"></i>
+        <a href="https://open.spotify.com/show/2ySVrxGkN6n6frMTo9Nsrt" target="_blank"><i class="fa fa-spotify"></i></a>
+        <a href="https://www.instagram.com/acamica/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/acamica_com " target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://es-la.facebook.com/Acamica.org/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a>
       </div>
     </footer>
   </body>
 </html>
-
