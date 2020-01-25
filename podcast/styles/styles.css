@@ -796,6 +796,10 @@ footer > div > a > i {
     height: 48px;
   }
 
+  section.novedades > div.novedades-content > button > a {
+    height: inherit;
+  }
+
   footer {
     top: 2em;
     display: flex;
