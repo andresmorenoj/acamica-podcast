@@ -36,5 +36,8 @@ Temporary Items
 # Archivos PDF
 *.PDF
 *.pdf
+*.zip
+*.rtf
+*.firebase
 
 # End of https://www.gitignore.io/api/macos
