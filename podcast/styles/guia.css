@@ -144,6 +144,16 @@ header > .header-h1 > p.p-mobile {
   cursor: pointer;
 }
 
+.header-h1 > button > a {
+  text-decoration: none;
+  color: #060a24;
+}
+
+.header-h1 > button:hover > a,
+a:hover {
+  color: #fff;
+}
+
 /*Fin estilos header*/
 
 section.episodios {
@@ -178,13 +188,15 @@ section.episodios > h2 {
 section.episodios > div.episodios-iframe {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-top: 17%;
+  position: relative;
+  top: 250px;
 }
 
 section.episodios > div.episodios-iframe > div.episodios-iframe-g > iframe {
   width: 100%;
   height: 232px;
   max-width: 584px;
+  width: 100%;
   border: 0px;
   background-color: transparent;
 }
@@ -192,14 +204,16 @@ section.episodios > div.episodios-iframe > div.episodios-iframe-g > iframe {
 div.episodios-iframe-position:nth-child(odd) {
   display: grid;
   justify-items: self-end;
-  margin-right: 36px;
+  margin-right: 13em;
+  margin-left: 2em;
   margin-bottom: 72px;
 }
 
 div.episodios-iframe-position:nth-child(even) {
   display: grid;
   justify-items: self-start;
-  margin-left: 36px;
+  margin-left: 13em;
+  margin-right: 2em;
   margin-bottom: 72px;
 }
 
@@ -212,6 +226,7 @@ div.episodios-iframe-position:nth-last-child(-n + 2) {
 section.nosotros {
   width: 100%;
   position: relative;
+  top: 250px;
 }
 
 section.nosotros > div.nosotros-content {
@@ -257,7 +272,8 @@ div.nosotros-content-info > p {
 
 section.entrevistas {
   width: 100%;
-  margin-top: 64px;
+  position: relative;
+  top: 20em;
 }
 
 section.entrevistas > div.entrevistas-imgs {
@@ -282,16 +298,18 @@ section.entrevistas > h2 {
 
 section.entrevistas > div.entrevistas-imgs > img {
   width: 100%;
-  max-width: 480px;
-  height: 364px;
+  max-width: auto;
+  height: auto;
   margin: 0;
+  content: fixed;
 }
 
 /*Fin estilos sección invitadas*/
 
 section.topicos {
   width: 100%;
-  margin-top: 64px;
+  position: relative;
+  top: 25em;
 }
 
 section.topicos > h2 {
@@ -345,6 +363,8 @@ div.topicos-icons > div.topicos-icons-item > p {
 section.novedades {
   width: 100%;
   margin-top: 64px;
+  position: relative;
+  top: 23em;
   align-items: center;
 }
 
@@ -352,7 +372,7 @@ section.novedades > div.novedades-fondo {
   width: 100%;
   height: 518px;
   background-image: linear-gradient(225deg, #0000ff, #0000a3);
-  clip-path: polygon(0% 18%, 100% 3%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 33%, 100% 3%, 100% 100%, 0% 100%);
   position: absolute;
   z-index: -1;
 }
@@ -417,7 +437,7 @@ footer {
   width: 100%;
   height: auto;
   position: relative;
-  top: 370px;
+  top: 45em;
   display: flex;
   justify-content: space-between;
   background-color: #fff;
@@ -447,6 +467,100 @@ footer > div > a {
 footer > div > a > i {
   display: inline;
   margin-right: 36px;
+}
+
+/*Break points*/
+
+@media screen and (max-width: 1440px) {
+  section.episodios > div.episodios-iframe {
+    position: initial;
+    top: initial;
+    margin-top: 17%;
+  }
+
+  section.episodios > div.episodios-iframe > div.episodios-iframe-g > iframe {
+    width: 100%;
+    height: 232px;
+    max-width: 584px;
+    border: 0px;
+    background-color: transparent;
+  }
+
+  div.episodios-iframe-position:nth-child(odd) {
+    display: grid;
+    justify-items: self-end;
+    margin-right: 36px;
+    margin-bottom: 72px;
+  }
+
+  div.episodios-iframe-position:nth-child(even) {
+    display: grid;
+    justify-items: self-start;
+    margin-left: 36px;
+    margin-bottom: 72px;
+  }
+
+  div.episodios-iframe-position:nth-last-child(-n + 2) {
+    margin-bottom: 64px;
+  }
+
+  /*Fin estilos sección episodios*/
+
+  section.nosotros {
+    width: 100%;
+    position: relative;
+    top: initial;
+  }
+
+  /*Fin estilos sección nosotros*/
+
+  section.entrevistas {
+    margin-top: 64px;
+    position: initial;
+    top: initial;
+  }
+
+  section.entrevistas > div.entrevistas-imgs > img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    margin: 0;
+  }
+
+  /*Fin estilos sección invitadas*/
+
+  section.topicos {
+    width: 100%;
+    margin-top: 64px;
+    position: initial;
+    top: initial;
+  }
+
+  /*Fin estilos sección topicos*/
+
+  section.novedades {
+    width: 100%;
+    margin-top: 64px;
+    align-items: center;
+    position: initial;
+    top: initial;
+  }
+
+  section.novedades > div.novedades-fondo {
+    clip-path: polygon(0% 25%, 100% 3%, 100% 100%, 0% 100%);
+  }
+
+  /*Fin sección novedades*/
+
+  footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 370px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
 }
 
 @media screen and (max-width: 320px) {
