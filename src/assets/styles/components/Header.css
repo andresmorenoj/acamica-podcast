@@ -1,0 +1,31 @@
+.Navegation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.Navagation__menu {
+  display: flex;
+}
+
+.Navagation__menu-item {
+  margin-left: 48px;
+  list-style: none;
+}
+
+.Navagation__menu-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  color: #060a24;
+}
+
+.Navagation__menu-item a:hover {
+  color: #00f3bb;
+  text-decoration: line-through;
+}
+
+.Navagation__menu-item a:active {
+  color: rgba(6, 10, 36, 0.56);
+}
