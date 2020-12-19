@@ -1,0 +1,17 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 36px 100px 31px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.Footer p {
+  color: #060a24;
+}
+
+.Footer__social svg {
+  margin-left: 36px;
+  fill: #060a24;
+}
