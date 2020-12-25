@@ -1,0 +1,14 @@
+.TitlePodcast {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 48px;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+.TitlePodcast__black {
+  color: #000;
+}
+
+.TitlePodcast__white {
+  color: #fff;
+}
