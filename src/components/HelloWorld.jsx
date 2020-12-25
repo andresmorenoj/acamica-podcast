@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonPodcast from './ButtonPodcast';
 import '../assets/styles/components/HelloWorld.css';
 
 const HelloWorld = () => (
@@ -10,6 +11,7 @@ const HelloWorld = () => (
       El portal de podcasts que explora el mundo de la programación y la
       tecnología. Nuevos episodios, todos los jueves cada 15 días.
     </p>
+    <ButtonPodcast title='Conocé más' url='#' />
   </div>
 );
 
