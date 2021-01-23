@@ -2,8 +2,7 @@
   background-image: linear-gradient(225deg, #0000ff, #0000a3);
   clip-path: polygon(0% 18%, 100% 3%, 100% 85%, 0% 100%);
   width: 100%;
-  height: 1040.6px;
-  padding: 186px 100px;
+  padding: 186px 100px 250px;
 }
 
 .Episodes .TitlePodcast {

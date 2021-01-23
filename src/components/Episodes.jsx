@@ -1,7 +1,7 @@
 import React from 'react';
 import TitlePodcast from './TitlePodcast';
 import PodcastIframe from './PodcastIframe';
-import '../assets/styles/components/Epsidoes.css';
+import '../assets/styles/components/Episodes.css';
 
 const Episodes = () => {
   return (
