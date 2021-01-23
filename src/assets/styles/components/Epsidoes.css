@@ -1,0 +1,17 @@
+.Episodes {
+  background-image: linear-gradient(225deg, #0000ff, #0000a3);
+  clip-path: polygon(0% 18%, 100% 3%, 100% 85%, 0% 100%);
+  width: 100%;
+  height: 1040.6px;
+  padding: 186px 100px;
+}
+
+.Episodes .TitlePodcast {
+  margin-left: 100px;
+}
+
+.Episodes__iframes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 72px;
+}
