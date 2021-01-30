@@ -1,0 +1,18 @@
+.topicos {
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+
+.topicos h2 {
+  margin-left: 200px;
+}
+
+.topicos-icons {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 56px;
+}

@@ -5,6 +5,8 @@
   width: 100%;
   padding: 36px 100px 31px;
   font-family: 'IBM Plex Mono', monospace;
+  position: relative;
+  bottom: 0;
 }
 
 .Footer p {

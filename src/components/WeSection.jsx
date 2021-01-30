@@ -1,10 +1,10 @@
 import React from 'react';
 import NosotrosImage from '../assets/static/phone.png';
 import TitlePodcast from './TitlePodcast';
-import '../assets/styles/components/We.css';
+import '../assets/styles/components/WeSection.css';
 
-const We = () => (
-  <section id='nosotros' class='nosotros'>
+const WeSection = () => (
+  <section id='nosotros' className='nosotros'>
     <div className='nosotros-content'>
       <img src={NosotrosImage} alt='Celular, mujer con computador' />
       <div className='nosotros-content-info'>
@@ -26,4 +26,4 @@ const We = () => (
   </section>
 );
 
-export default We;
+export default WeSection;

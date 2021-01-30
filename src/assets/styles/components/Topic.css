@@ -1,0 +1,24 @@
+.topicos-icons-item {
+  width: 260px;
+  height: 178px;
+  margin: 0 auto;
+}
+
+.topicos-icons-item img {
+  width: 104px;
+  margin: 0 auto;
+  display: block;
+}
+
+.topicos-icons-item p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 24px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 29px;
+}
