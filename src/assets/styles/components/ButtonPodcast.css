@@ -1,0 +1,16 @@
+.ButtonPodcast {
+  text-decoration: none;
+  color: #060a24;
+  width: fit-content;
+  background-color: #00f3bb;
+  font-family: 'IBMPlexMono-Medium', monospace;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 16px 60px;
+}
+
+.ButtonPodcast:hover {
+  color: #fff;
+  background: linear-gradient(225deg, #0000fe, #00f0b8);
+}

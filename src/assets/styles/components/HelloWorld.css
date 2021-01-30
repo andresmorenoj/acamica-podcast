@@ -1,0 +1,35 @@
+.HelloWorld {
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+.HelloWorld__title {
+  font-family: 'IBMPlexSans', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #060a24;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+}
+
+.HelloWorld__title span:first-child {
+  text-decoration: line-through;
+}
+
+.HelloWorld__title span:last-child {
+  color: #0000ec;
+}
+
+.HelloWorld__text {
+  justify-content: start;
+  font-family: 'IBMPlexMono', monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 0;
+  width: 628px;
+  margin-bottom: 68px;
+}

@@ -1,0 +1,34 @@
+.nosotros {
+  width: 100%;
+  position: relative;
+  top: -180px;
+}
+
+.nosotros .nosotros-content {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.nosotros-content img {
+  max-width: 457px;
+  width: 100%;
+  height: 660px;
+  margin-left: 0;
+}
+
+.nosotros-content-info {
+  width: 464px;
+  margin: auto 0;
+}
+
+.nosotros-content-info p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: lighter;
+  margin: 0 0 15px 0;
+}
