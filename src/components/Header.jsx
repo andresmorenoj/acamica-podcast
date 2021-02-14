@@ -10,16 +10,16 @@ const Header = () => (
       </figure>
       <ul className='Navagation__menu'>
         <li className='Navagation__menu-item'>
-          <a href=''>Episodios</a>
+          <a href='#episodes'>Episodios</a>
         </li>
         <li className='Navagation__menu-item'>
-          <a href=''>Nosotros</a>
+          <a href='#whoWeAre'>Nosotros</a>
         </li>
         <li className='Navagation__menu-item'>
-          <a href=''>Entrevistas</a>
+          <a href='#interviews'>Entrevistas</a>
         </li>
         <li className='Navagation__menu-item'>
-          <a href=''>Tópicos</a>
+          <a href='#topics'>Tópicos</a>
         </li>
       </ul>
     </nav>
