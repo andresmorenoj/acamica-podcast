@@ -30,6 +30,19 @@
   letter-spacing: 0;
   line-height: 24px;
   margin: 0;
-  width: 628px;
+  max-width: 628px;
+  min-width: 320px;
   margin-bottom: 68px;
+}
+
+@media screen and (max-width: 1024px) {
+  .HelloWorld {
+    padding: 0 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .HelloWorld__title {
+    font-size: 3em;
+  }
 }

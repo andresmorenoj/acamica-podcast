@@ -37,3 +37,55 @@
 .Navagation__menu-item a:active {
   color: rgba(6, 10, 36, 0.56);
 }
+
+@media screen and (max-width: 1024px) {
+  .Header {
+    padding: 10px 16px;
+  }
+
+  .Navagation__menu-responsive {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .Navagation__menu-responsive ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .Logo {
+    left: 0;
+  }
+
+  .Navagation__menu-responsive span {
+    text-align: right;
+    display: block;
+  }
+
+  .Navagation__menu {
+    margin-bottom: 14px;
+    padding: 0;
+    width: 320px;
+    background-color: #0000ec;
+    display: block;
+  }
+
+  .Navagation__menu-item {
+    margin: 0;
+  }
+
+  .Navagation__menu-item a {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    text-align: left;
+    color: white;
+  }
+
+  .Navagation__menu-item:last-child {
+    padding: 0;
+  }
+}
