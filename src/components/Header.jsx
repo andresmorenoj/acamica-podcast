@@ -51,12 +51,12 @@ const Header = () => {
   );
 
   const menuDisplay = () =>
-    viewport <= 1024 ? displayResponsiveMenu() : menu();
+    viewport <= 767 ? displayResponsiveMenu() : menu();
 
   return (
     <header className='Header'>
       <nav className='Navegation'>
-        {viewport >= 1025 && (
+        {viewport >= 768 && (
           <figure className='Logo'>
             <img src={Logo} alt='Logo Podcast' />
           </figure>

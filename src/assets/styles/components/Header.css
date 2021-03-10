@@ -38,7 +38,7 @@
   color: rgba(6, 10, 36, 0.56);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .Header {
     padding: 10px 16px;
   }
