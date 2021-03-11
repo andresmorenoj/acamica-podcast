@@ -55,6 +55,7 @@
   }
 
   .nosotros-content-info {
+    width: auto;
     padding: 0 16px;
   }
 }
