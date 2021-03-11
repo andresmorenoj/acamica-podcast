@@ -5,12 +5,24 @@
   padding: 186px 100px 250px;
 }
 
-.Episodes .TitlePodcast {
-  margin-left: 100px;
-}
-
 .Episodes__iframes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 72px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+  .Episodes {
+    clip-path: polygon(0% 18%, 100% 14%, 100% 96%, 0% 100%);
+    padding: 280px 16px 120px;
+    margin-top: -140px;
+  }
+
+  .Episodes__iframes {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 11px;
+  }
 }

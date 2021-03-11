@@ -22,3 +22,21 @@
   border: 2px solid #00f0b8;
   background: transparent;
 }
+
+@media screen and (max-width: 767px) {
+  .TitlePodcast {
+    line-height: 50px;
+
+    margin-top: 150px;
+  }
+
+  .novedades-content {
+    clip-path: polygon(0% 33%, 100% 25%, 100% 100%, 0% 100%);
+  }
+
+  .novedades-content a {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

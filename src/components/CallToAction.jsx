@@ -8,7 +8,7 @@ const CallToAction = () => {
     <section id='novedades' className='novedades'>
       <div className='novedades-content'>
         <TitlePodcast title='¿Querés las últimas novedades?' color={false} />
-        <ButtonPodcast title='ESCUCHÁ LOS EPISODIOS' url='/#episodios' />
+        <ButtonPodcast title='ESCUCHÁ LOS EPISODIOS' url='/#episodes' />
       </div>
     </section>
   );

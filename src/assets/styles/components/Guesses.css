@@ -5,7 +5,7 @@
 }
 
 .entrevistas h2 {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .entrevistas-imgs {
@@ -21,4 +21,20 @@
   height: auto;
   margin: 0;
   content: fixed;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .entrevistas-imgs {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .entrevistas-imgs {
+    grid-template-columns: 100%;
+  }
+
+  .entrevistas h2 {
+    margin-left: 16px;
+  }
 }

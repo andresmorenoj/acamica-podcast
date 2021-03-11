@@ -5,7 +5,7 @@ import '../assets/styles/components/Episodes.css';
 
 const Episodes = () => {
   return (
-    <section className='Episodes'>
+    <section id='episodes' className='Episodes'>
       <TitlePodcast title='Episodios' color={false} />
       <div className='Episodes__iframes'>
         <PodcastIframe

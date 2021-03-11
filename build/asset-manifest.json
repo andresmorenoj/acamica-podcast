@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4bfec3e.chunk.css",
+    "main.js": "/static/js/main.32014485.chunk.js",
+    "main.js.map": "/static/js/main.32014485.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f9faade5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f9faade5.js.map",
+    "static/js/2.170b2218.chunk.js": "/static/js/2.170b2218.chunk.js",
+    "static/js/2.170b2218.chunk.js.map": "/static/js/2.170b2218.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c4bfec3e.chunk.css.map": "/static/css/main.c4bfec3e.chunk.css.map",
+    "static/js/2.170b2218.chunk.js.LICENSE.txt": "/static/js/2.170b2218.chunk.js.LICENSE.txt",
+    "static/media/ComputerOperator.cc9ce7a2.png": "/static/media/ComputerOperator.cc9ce7a2.png",
+    "static/media/Katie-Bouman.b5cb9b45.png": "/static/media/Katie-Bouman.b5cb9b45.png",
+    "static/media/Margaret_Hamilton.2b181fee.png": "/static/media/Margaret_Hamilton.2b181fee.png",
+    "static/media/OldComputer.41560e9b.png": "/static/media/OldComputer.41560e9b.png",
+    "static/media/grace-hopper.3889712b.png": "/static/media/grace-hopper.3889712b.png",
+    "static/media/icon1.eb079e3a.svg": "/static/media/icon1.eb079e3a.svg",
+    "static/media/icon2.db2a9c97.svg": "/static/media/icon2.db2a9c97.svg",
+    "static/media/icon3.c6b68b14.svg": "/static/media/icon3.c6b68b14.svg",
+    "static/media/icon4.b4611888.svg": "/static/media/icon4.b4611888.svg",
+    "static/media/logo.be07c86b.svg": "/static/media/logo.be07c86b.svg",
+    "static/media/phone.cf5bdf81.png": "/static/media/phone.cf5bdf81.png",
+    "static/media/susan-kare.951a7ec8.png": "/static/media/susan-kare.951a7ec8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9faade5.js",
+    "static/js/2.170b2218.chunk.js",
+    "static/css/main.c4bfec3e.chunk.css",
+    "static/js/main.32014485.chunk.js"
+  ]
+}

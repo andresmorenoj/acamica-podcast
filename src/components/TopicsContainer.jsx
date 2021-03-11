@@ -9,7 +9,7 @@ import '../assets/styles/components/TopicsContainer.css';
 
 const TopicsContainer = () => {
   return (
-    <section id='topicos' className='topicos'>
+    <section id='topics' className='topicos'>
       <TitlePodcast title='Algunos de nuestros temas' color />
       <div className='topicos-icons'>
         <Topic img={image1} title='Trabajo remoto' />

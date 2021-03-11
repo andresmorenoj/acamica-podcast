@@ -4,7 +4,7 @@ import TitlePodcast from './TitlePodcast';
 import '../assets/styles/components/WeSection.css';
 
 const WeSection = () => (
-  <section id='nosotros' className='nosotros'>
+  <section id='whoWeAre' className='nosotros'>
     <div className='nosotros-content'>
       <img src={NosotrosImage} alt='Celular, mujer con computador' />
       <div className='nosotros-content-info'>
@@ -13,7 +13,6 @@ const WeSection = () => (
           Our posturings, our imagined self-importance, the delusion that we
           have some privileged position in the Universe, are challenged by this
           point of pale light.
-          <br />
         </p>
 
         <p>

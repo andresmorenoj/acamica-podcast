@@ -10,7 +10,7 @@ import '../assets/styles/components/Guesses.css';
 
 const Guesses = () => {
   return (
-    <section id='entrevistas' className='entrevistas'>
+    <section id='interviews' className='entrevistas'>
       <TitlePodcast title='Invitadas/os estelares' color />
       <div className='entrevistas-imgs'>
         <img src={GraceHooper} alt='Imagen de Grace Hopper' />
