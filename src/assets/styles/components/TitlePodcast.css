@@ -12,3 +12,9 @@
 .TitlePodcast__white {
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .TitlePodcast {
+    font-size: 36px;
+  }
+}
