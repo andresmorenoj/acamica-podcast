@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "Podcast",
   "builds": [
       {
           "use": "@now/static-build",
