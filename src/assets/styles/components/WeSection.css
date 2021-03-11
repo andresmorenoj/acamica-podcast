@@ -48,10 +48,13 @@
   }
 
   .nosotros-content {
+    width: 100vw;
     display: block;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .nosotros-content-info {
-    width: auto;
+    padding: 0 16px;
   }
 }
