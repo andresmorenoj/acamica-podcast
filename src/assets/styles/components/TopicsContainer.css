@@ -5,7 +5,7 @@
 }
 
 .topicos h2 {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .topicos-icons {
@@ -13,6 +13,23 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 56px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .topicos {
+    top: -80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topicos {
+    top: -80px;
+  }
+  .topicos h2 {
+    width: fit-content;
+    margin-left: 16px;
+  }
 }

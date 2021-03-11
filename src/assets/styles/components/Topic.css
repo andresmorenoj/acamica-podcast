@@ -1,13 +1,17 @@
 .topicos-icons-item {
   width: 260px;
   height: 178px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 52px;
 }
 
 .topicos-icons-item img {
   width: 104px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+  margin-bottom: 13px;
 }
 
 .topicos-icons-item p {
@@ -19,6 +23,17 @@
   letter-spacing: 0;
   text-align: center;
   width: 220px;
-  margin: 0 auto;
-  margin-top: 29px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .topicos-icons-item:nth-child(2) {
+    margin-bottom: 70px;
+  }
+  .topicos-icons-item:last-child {
+    margin-bottom: 0;
+  }
 }
