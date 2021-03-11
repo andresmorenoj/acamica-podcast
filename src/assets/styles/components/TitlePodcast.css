@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 767px) {
   .TitlePodcast {
+    max-width: 64vw;
     font-size: 36px;
   }
 }

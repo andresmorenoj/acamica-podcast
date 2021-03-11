@@ -17,7 +17,7 @@
 @media screen and (max-width: 767px) {
   .Episodes {
     clip-path: polygon(0% 18%, 100% 14%, 100% 96%, 0% 100%);
-    padding: 280px 16px 200px;
+    padding: 280px 16px 120px;
     margin-top: -140px;
   }
 
