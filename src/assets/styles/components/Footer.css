@@ -17,3 +17,21 @@
   margin-left: 36px;
   fill: #060a24;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+  .Footer {
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+
+  .Footer p {
+    margin-bottom: 24px;
+  }
+
+  .Footer__social svg:first-child {
+    margin-left: 0;
+  }
+}
