@@ -7,7 +7,7 @@ const Episodes = () => {
   return (
     <section id='episodes' className='Episodes'>
       <TitlePodcast title='Episodios' color={false} />
-      <div className='Episodes__iframes'>
+      <div className='Episodes__iframes anotherClass'>
         <PodcastIframe
           source='https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt'
           title='1'
