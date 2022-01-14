@@ -5,7 +5,7 @@ import '../assets/styles/components/CallToAction.css';
 
 const CallToAction = () => {
   return (
-    <section id='novedades' className='novedades'>
+    <section id='novedades' className='novedades anotherClasss'>
       <div className='novedades-content'>
         <TitlePodcast title='¿Querés las últimas novedades?' color={false} />
         <ButtonPodcast title='ESCUCHÁ LOS EPISODIOS' url='/#episodes' />
